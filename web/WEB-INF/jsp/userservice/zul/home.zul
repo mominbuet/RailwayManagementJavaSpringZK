@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Passenger List" ?>
+<zk xmlns="http://www.zkoss.org/2005/zul" xmlns:html="http://www.w3.org/1999/xhtml"> 
+    <hbox spacing="1">
+        <zscript>
+            
+        </zscript>
+        <grid >
+            <columns>
+                <column width="20%"/>
+                <column />
+                
+            </columns>
+            
+        </grid>
+        <panel title="Ticket Status" width="400px" id="container" >
+            <panelchildren>
+                
+                
+            </panelchildren>
+        </panel>
+    </hbox>
+</zk>

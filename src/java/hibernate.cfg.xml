@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+    <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+    <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/railway_lastnight</property>
+    <property name="hibernate.connection.username">postgres</property>
+    <property name="hibernate.connection.password">123qweasd</property>
+    <property name="show_sql">true</property>
+    
+            <mapping class="orm.point_info" />
+            <mapping class="orm.base_info" />
+            <mapping class="orm.Cust_info" />
+            <mapping class="orm.Journey_info" />
+            <mapping class="orm.Seat_info" />
+            <mapping class="orm.Ticket_info" />
+            <mapping class="orm.Train_info" />
+            <mapping class="orm.route_info" />
+            <mapping class="orm.admin_info" />
+  </session-factory>
+</hibernate-configuration>

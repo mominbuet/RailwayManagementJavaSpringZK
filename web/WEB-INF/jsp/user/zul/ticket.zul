@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul" xmlns:html="http://www.w3.org/1999/xhtml">
+    <div align="center">
+        
+        <panel id="container" height="200px">
+            <panelchildren>
+
+                    <grid width="280px" id="demoGrid" mold="paging" pagingPosition="both" autopaging="true" vflex="true">
+                        <columns>
+                            <column width="70px" label="Column1" align="center" />
+                            <column width="70px" label="Column2" align="center" />
+                            <column width="70px" label="Column3" align="center" />
+                            <column width="70px" label="Column4" align="center" />
+                        </columns>
+                        <rows>
+                            <row>
+
+                            </row>
+                        </rows>
+
+                    </grid>
+
+            </panelchildren>
+        </panel>
+        
+        <window title="Ticket" width="250px" border="normal">
+            <zscript>
+               
+            </zscript>
+            <hbox >
+                <window width="50px" border="normal">
+                    <label id="s1" value="1">
+                        <attribute name="onClick">
+                            if(s1.getValue().compareTo("1")==0)
+                                s1.setValue("0");
+                            else
+                                s1.setValue("1");
+                        </attribute>
+                    </label>
+                </window>
+                <window width="50px" border="normal">
+                    <label id="s2" value="1">
+                        <attribute name="onClick">
+                            if(s2.getValue().compareTo("1")==0)
+                                s2.setValue("0");
+                            else
+                                s2.setValue("1");
+                        </attribute>
+                    </label>
+                </window>
+                 <window width="50px" border="normal">
+                    <label id="s3" value="1">
+                        <attribute name="onClick">
+                            if(s3.getValue().compareTo("1")==0)
+                                s3.setValue("0");
+                            else
+                                s3.setValue("1");
+                        </attribute>
+                    </label>
+                </window>
+                 <window width="50px" border="normal">
+                    <label id="s4" value="1">
+                        <attribute name="onClick">
+                            if(s4.getValue().compareTo("1")==0)
+                                s4.setValue("0");
+                            else
+                                s4.setValue("1");
+                        </attribute>
+                    </label>
+                </window>
+            </hbox>
+        
+        </window>
+        <zscript>
+            import java.util.*;
+            import ajax.itemRenderer;
+            import ajax.listModel;
+           
+            listModel searchmodel=new listModel();
+        
+        </zscript>
+        <label value="Source : "/>
+        <bandbox id="bd" autodrop="true">
+            <attribute name="onChanging">
+                sessionScope.put("sattr", event.getValue());
+                searchlistbox.getModel().update();
+            </attribute>
+            <attribute name="onOpen">
+                searchlistbox.getModel().update();
+                </attribute>
+            <bandpopup>
+                <listbox id="searchlistbox" width="200px"
+                itemRenderer="ajax.itemRenderer"
+                model="${searchmodel}">
+                <attribute name="onSelect">
+                   bd.value=self.selectedItem.label;
+                   bd.close();
+                </attribute>
+                <listhead>
+                <listheader label="Station Name"/>
+                </listhead>
+                </listbox>
+            </bandpopup>
+       </bandbox>
+       <html:br />
+           <label value="Destination : "/>
+        <bandbox id="bd1" autodrop="true">
+            <attribute name="onChanging">
+                sessionScope.put("sattr", event.getValue());
+                searchlistbox1.getModel().update();
+            </attribute>
+            <attribute name="onOpen">
+                searchlistbox1.getModel().update();
+                </attribute>
+            <bandpopup>
+                <listbox id="searchlistbox1" width="200px"
+                itemRenderer="ajax.itemRenderer"
+                model="${searchmodel}">
+                <attribute name="onSelect">
+                   bd1.value=self.selectedItem.label;
+                   bd1.close();
+                </attribute>
+                <listhead>
+                <listheader label="Station Name"/>
+                </listhead>
+                </listbox>
+            </bandpopup>
+       </bandbox>
+ </div>
+</zk>

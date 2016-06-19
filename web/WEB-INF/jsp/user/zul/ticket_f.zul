@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul" xmlns:html="http://www.w3.org/1999/xhtml">
+    <div width="400px" align="center">      
+        <zscript>
+            import java.util.*;
+            import ajax.*;
+            
+            listModel searchmodel=new listModel();
+            comboModel cmodel=new comboModel();
+            ticketModel tmodel=new ticketModel();
+        </zscript>
+        <grid id="grid1" width="260px">
+            <columns>
+                <column width="80px"/>
+                <column width="180px"/>
+            </columns>
+            <rows>
+                <row>
+                    <label value="Source "/>
+                    <bandbox id="bd" autodrop="true">
+                        <attribute name="onChanging">
+                            sessionScope.put("sattr", event.getValue());
+                            searchlistbox.getModel().update();
+                        </attribute>
+                        <attribute name="onOpen">
+                            searchlistbox.getModel().update();
+                            </attribute>
+                        <bandpopup>
+                            <listbox id="searchlistbox" width="200px"
+                            itemRenderer="ajax.itemRenderer"
+                            model="${searchmodel}">
+                            <attribute name="onSelect">
+                            bd.value=self.selectedItem.label;
+                            bd.close();
+                            </attribute>
+                            <listhead>
+                            <listheader label="Station Name"/>
+                            </listhead>
+                            </listbox>
+                        </bandpopup>
+                    </bandbox>
+                </row>
+             <row>   
+                    <label value="Destination  "/>
+                    <bandbox id="bd1" autodrop="true">
+                        <attribute name="onChanging">
+                            sessionScope.put("sattr", event.getValue());
+                            searchlistbox1.getModel().update();
+                        </attribute>
+                        <attribute name="onOpen">
+                            searchlistbox1.getModel().update();
+                            </attribute>
+                        <bandpopup>
+                            <listbox id="searchlistbox1" width="200px"
+                            itemRenderer="ajax.itemRenderer"
+                            model="${searchmodel}">
+                            <attribute name="onSelect">
+                            bd1.value=self.selectedItem.label;
+                            bd1.close();
+                            </attribute>
+                            <listhead>
+                            <listheader label="Station Name"/>
+                            </listhead>
+                            </listbox>
+                        </bandpopup>
+                    </bandbox>
+                </row>
+                <row  align="right" spans="2">
+                    <button label="check">
+                        <attribute name="onClick">
+                            if(bd.value.compareTo(bd1.value)!=0){
+                                 srl.setValue(bd.value);
+                                 dsl.setValue(bd1.value);
+                                 
+                                 sessionScope.put("sour", bd.value);
+                                 sessionScope.put("dest", bd1.value);
+                                 
+                                 combo.getModel().update();
+                                 grid1.setVisible(false);
+                                 grid2.setVisible(true);
+                            }
+                        </attribute>
+                    </button>
+                </row>
+            </rows>
+       </grid>
+       <grid width="300px" id="grid2" visible="false">
+           <columns>
+               <column width="100px"/>
+               <column />
+           </columns>
+           <rows>
+               <row>
+                   <label value="Source Station:"/>
+                   <label id="srl"/>
+               </row>
+                <row>
+                   <label value="Destination Station:"/>
+                   <label id="dsl"/>
+               </row>
+               <row>
+                   <label value="Train Name:"/>
+                   <combobox id="combo" itemRenderer="ajax.comboItemRender" model="${cmodel}">            
+                        <attribute name="onChange">
+                               sessionScope.put("tname","gudhuli");
+                               sessionScope.put("tclass","1");
+                               ticket.getModel().update();
+                               ticket.setVisible(true);
+                        </attribute>
+                   </combobox>
+               </row>
+           </rows>
+       </grid>
+       
+           <zscript>
+               
+           </zscript>
+
+         <listbox visible="false" id="ticket" mold="paging" pageSize="3"
+         itemRenderer="ajax.ticketRenderer" model="${tmodel}">       
+         </listbox>
+
+       
+ </div>
+</zk>

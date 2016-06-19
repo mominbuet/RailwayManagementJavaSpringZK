@@ -1,0 +1,1351 @@
+
+		style="vertical-align:middle"
+		#accommodations_table ul {
+			margin-top: 0;
+		}
+		
+		#accommodations_table .dimensions {
+		  padding-bottom: 0;
+		}
+		
+		#accommodations_table .volume .luggage {
+		  padding-left: 7px;
+		}
+	
+
+
+
+			#confirmation_col_1 p, #confirmation_col_2 p {
+				margin: 10px 0;
+			}
+			#confirmation_col_1 h3 {
+				margin: 20px 0 10px 0;
+			}
+			#confirmation_col_1 p.thank_you {
+				line-height: 1.5;
+				font-weight: bold;
+				font-size: 80%;
+				margin: 0 0 10px 0;
+			}
+			#confirmation_col_1 .not_a_ticket {
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+			#confirmation_res_info {
+				font-weight: bold;
+				margin: 10px 0;
+			}
+			#confirmation_res_info p {
+				margin: 0px;
+				font-size: 100%;
+			}
+			#confirmation_res_info p span {
+				font-size: 120%;
+			}
+			#confirmation_chargetotal {
+				border: 1px solid #b0b0b0;
+				padding: 5px;
+				font-size: 120%;
+			}
+			#confirmation_chargetotal .total_figure {
+				font-weight: bold;
+			}
+			#confirmation_quik_trak {
+				border: 1px solid #369;
+				padding: 10px 10px 0 10px;
+			}
+			#quik_trak {
+				float: right;
+				width: 90px;
+				height: 120px;
+				padding: 15px 20px;
+			}
+			#bar_code {
+				display: block;
+				width: 140px;
+				height: 130px;
+			}
+			#confirmation_quik_trak p {
+				clear: both;
+			}
+	
+
+
+
+		h1#contact_us_header {
+			height: 19px;
+			font-size: 19px;
+		}
+		h1#contact_us_header span {
+			height: 19px;
+			background-image: url(images/cms/pageTitle_contactUs.gif);
+		}
+		
+		#contact_us_form {
+			width: 66%;
+		}
+		#contact_us_phones{
+			padding:10px;
+		 	background-color:#FFF1D2;
+			border-color:#C6D3E7;
+			font-size: 70%;
+		}
+
+		#contact_us_links{
+			padding:10px;
+		 	font-size: 100%; 
+		}
+
+		
+		//#contact_us_form .form_label {
+		//	width: 40%;
+		//}
+		//#contact_us_form .form_item {
+		//	width: 59%;
+		//}
+
+		#contact_us_form fieldset {
+			background-color:#EDF1F5;
+			border:1px solid #C6D3E7;
+			padding:10px;
+					}
+		#contact_us_form underline{
+			text-decoration:underline;
+		}
+		
+		#contact_us_form type{
+			width:106px;
+		}
+
+		#contact_us_form primary{
+			width:90px;
+		}
+
+		#contact_us_form .form_label {
+			float: left;
+			width: 35%;
+			padding-top: .1em;
+		}
+
+		#contact_us_form .form_item {
+			float: right;
+			width: 65%;
+		}
+
+		#contact_us_form .form_line {
+		/* padding-top: 10px; */
+		clear: both;
+		margin-bottom: 10px;
+		width: 100%;
+		float: left;
+		font-size: 70%;
+		}    
+
+		#contact_us_form .subject {
+			margin-bottom: 20px;		
+		}  
+
+		#contact_us_form .natureComment {
+			padding-bottom: 20px;
+			padding-top: 0px;
+	       	margin-bottom: 0px;
+			display:none;		
+		}    
+		
+		#contact_us_form .dateTime {
+			padding-bottom:20px;
+			margin-bottom:0px;
+			display:none;		
+		}  
+
+		#contact_us_form .reservationNbr {
+			padding-bottom:20px;
+			margin-bottom:0px		
+		}  
+
+		#contact_us_form .reservationNbrText {
+			width:83px		
+		}  
+
+
+		#contact_us_form .messageLine {
+			margin-bottom:0px;		
+		}
+
+		#contact_us_form .messageLabel {
+			padding-bottom:10px		
+		}
+
+		#contact_us_form .timeLabel {
+			padding-left:0px		
+		}
+		#contact_us_form .contactdatefiled{
+			width:50%;
+			float:left;		
+		}
+
+		#contact_us_form .complaintOverlay {
+			padding-left:156px
+		}
+
+		#contact_us_form .praiseOverlay {
+			padding-left:134px
+		}
+
+		#contact_us_form .suggestionOverlay {
+			padding-left:21px
+		}
+
+		#contact_us_form .inquiryOverlay {
+			padding-left:50px
+		}
+
+		#contact_us_form .trainOverlay {
+			margin-left:57px
+		}
+		
+		#contact_us_form .stationOverlay {
+			padding-left:76px
+		}
+
+		#contact_us_form .otherOverlay {
+			padding-left:157px
+		}
+
+		#contact_us_form .closeImg {
+			display:block;
+			text-align:right;
+		}
+		
+		#contact_us_form .labelLink {
+			color:black;
+			text-decoration:none;
+		}
+
+		#contact_us_form .padding20 {
+			padding-right:20px;
+		}
+
+		#contact_us_form .commentDetail {
+			float:right;
+			font-size:11px;
+			font-weight:normal;		
+		}
+
+		#contact_us_form .inline {
+			display:inline;
+		}
+
+		#contact_us_form .buttons{
+			padding-top:14px
+		}
+
+
+
+		#contact_us_form input.text {
+			width: 98%;
+		}
+		
+		#contact_us_form select {
+			width: 100%;
+		}
+		
+		#contact_us_message {
+			width: 99%;
+			height: 6.5em;
+		}
+		
+		.privacy_policy_link {
+			text-align: center;
+			margin-left: 10%;
+		}
+		
+		#contact_us_form_buttons .right_col { width: 67%; }
+	
+		#contact_us_message_line, 
+		#contact_us_message_line fieldset { 
+		zoom: 1;
+		}
+		#contact_us_message_line fieldset {
+		    padding: 10px 0;
+		    margin: 0 0 10px;
+		    background-color: transparent;
+		}
+
+
+
+		h1#deals_header {
+			height: 20px;
+			font-size: 20px;
+		}
+		
+		h1#deals_header span {
+			height: 20px;
+			background-image: url(images/cms/pageTitle_deals.gif);
+		}
+		
+		#bookButton {
+		    text-align: center;
+		}
+		
+		#bookButton img {
+		    vertical-align: bottom;
+		}
+		
+		#deals_conditions ul {
+      list-style-image:none;
+      list-style-position:outside;
+      list-style-type:none;
+      margin:0;
+      padding:0;
+    }
+    #deals_conditions ul li {
+      -moz-background-clip:border;
+      -moz-background-inline-policy:continuous;
+      -moz-background-origin:padding;
+      background:transparent none repeat scroll 0 0;
+      border-bottom:1px solid #E5E1D8;
+      list-style-image:none;
+      list-style-position:outside;
+      list-style-type:none;
+      margin-bottom:0;
+      margin-left:-15px;
+      margin-right:-10px;
+      padding:0.15em 10px 0.25em;
+    }
+    
+    #deals_conditions ul li.last {
+      border-bottom: 0;
+    }
+	
+
+
+
+		h2#subheader_animated_ecards {
+			height: 14px;
+			font-size: 14px;
+		}
+		h2#subheader_animated_ecards span {
+			height: 14px;
+			background-image: url(images/cms/subheader_animatedECards.gif);
+		}
+		h2#subheader_static_ecards {
+			height: 14px;
+			font-size: 14px;
+		}
+		h2#subheader_static_ecards span {
+			height: 14px;
+			background-image: url(images/cms/subheading_staticECards.gif);
+		}
+		
+		#ecard_wrapper {
+		  background: transparent url(images/cms/ecard_divider.gif) repeat-y scroll 380px 0px;
+		}
+		
+		.ecard_col { 
+			float: left;
+		}
+		
+		.ecard_row { 
+			margin-bottom: 1.8em; 
+			float: left;
+		}
+		
+		.ecard_preview {
+			float: left;
+			width: 150px;
+		}
+		.ecard_preview ul {
+			margin: 5px 0 0 0;
+		}
+		
+		#animated_col {
+			width: 380px;
+			margin-right: 25px;
+		}
+		#animated_col .ecard_col_one { margin-right: 55px; }
+		
+		#static_col { width: 150px; }
+	
+
+
+
+		h2#subheader_prepare_ecards {
+			height: 14px;
+			font-size: 14px;
+		}
+		h2#subheader_prepare_ecards span {
+			height: 14px;
+			background-image: url(images/cms/subheader_PrepareYourECard.gif);
+		}
+		
+		#ecard_prepare_form .page_two_col {
+			margin-bottom: 1.3em;
+		}
+		#ecard_prepare_form fieldset { 
+		    margin: 0; 
+		}
+		#ecard_prepare_form h5 { 
+		    margin-top: 0; 
+		}
+		
+		#ecard_prepare_form label {
+			display: block;
+			margin-bottom: 0.2em;
+			font-weight: normal;
+			line-height: 1;
+		}
+		
+		#ecard_prepare_form .page_two_col input, #ecard_prepare_form textarea {
+			width: 286px;
+			margin-bottom: 10px;
+		}
+		
+		* html #ecard_prepare_form .page_two_col input, * html #ecard_prepare_form textarea {
+			width: 284px;
+		}
+		
+		#ecard_prepare_form textarea {
+			height: 21em;
+			overflow-x: auto;
+			overflow-y: scroll;
+		}
+		
+		#ecard_prepare_form .recipient_group {
+			padding-top: 15px;
+			margin-top: 5px;
+			border-top: 1px solid #d4d4d4;
+		}
+	
+
+
+
+		h2#subheader_preview_ecard {
+			height: 14px;
+			font-size: 14px;
+		}
+		h2#subheader_preview_ecard span {
+			height: 14px;
+			background-image: url(images/cms/subheader_previewYourECards.GIF);
+		}
+
+		#to_from h5 {
+			margin: 0;
+			margin-right: 5px;
+		}
+		
+		#to_from table {
+			margin: 0;
+		}
+		
+		#to_from td {
+			vertical-align: top;
+		}
+		
+		#to_from .contact_list {
+			margin: 0;
+		}
+		
+		#to_from .contact_list li {
+			background: white none;
+			padding: 0;
+		}
+		
+		#ecard_content_preview p {
+			margin: 0;
+		}
+		
+		#ecard_content_preview, #ecard_preview_to_submit_or_not_to_submit {
+			margin-top: 15px;
+			padding-top: 15px;
+			border-top: 1px solid #D4D4D4;
+		}
+	
+
+
+
+		h1#ecards_header {
+			height: 20px;
+			font-size: 20px;
+		}
+		h1#ecards_header span {
+			height: 20px;
+			background-image: url(images/cms/pageTitle_amtrakECards.gif);
+		}
+
+		.ecard_image {
+			border: 4px solid #003E89;
+			padding: 20px;
+			margin-bottom: 1.3em;
+		}
+		
+		.ecards_two_col .page_col {
+			width: 290px;
+			float: left;
+		}
+
+		.ecards_two_col .page_col1 {
+			padding-right: 10px;
+			margin-right: 10px;
+		}
+	
+
+
+
+	  
+		.ektrontable, 
+		.stripetable { 
+			font-size: 70%;
+			border: 1px solid #c2d1e0;
+			margin-bottom: 1.3em;
+		}
+		
+		div.ektrontable table,
+		div.stripetable table {
+			margin: 0;
+			width: 100%;
+		}
+		
+		.stripetable tr.even td {
+			background-color: white;
+		}
+		
+		.stripetable tr.odd td {
+			background-color: #e8e8e8;
+		}		
+		
+		.ektrontable p,
+		.stripetable p {
+			font-size: 100%;
+			margin: 0;
+		}
+		
+		.stripetable img {
+		  vertical-align: baseline;
+		}
+		
+		.ektrontable td, 
+		.ektrontable th,
+		.stripetable th,
+		.stripetable td  {
+			padding: 4px;
+			margin: 0;
+			vertical-align: middle;
+		}
+		
+		.ektrontable .columnhead, 
+		.ektrontable .NavBarWhite, 
+		.ektrontable thead th,
+		.stripetable thead th {
+			font-weight: bold;
+			color: #FFF;
+			background-color: #999999;
+		}
+		
+		/* won't work in IE6, but will work in IE7,FF2+,S1+,O8+ */
+		/* IE gets this "right" anyway, though, so it's not a big deal */
+		/* .stripetable should not have align=center set as an attribute anyway */
+		div.ektrontable[align=center] td, 
+		div[align=center] .ektrontable td {
+			text-align:center;
+		}
+		
+		/* the second declaration allows it to be set on the row and now a td */
+		.stripetable .left, .stripetable .left td { text-align: left; }
+		.stripetable .center, .stripetable .center td { text-align: center; }		
+		.stripetable .right, .stripetable .right td { text-align: right; }
+	
+
+
+
+		h2#archived_news_releases {
+			height: 14px;
+			font-size: 14px;
+		}
+		h2#archived_news_releases span {
+			height: 14px;
+			background-image: url(images/cms/subHeading_archivedNewsReleases.gif);
+		}
+		
+		table.news_archive_table tbody tr td {
+			background-color: #e8e8e8;
+			border-bottom: 0;
+		}
+		
+		table.news_archive_table tbody tr td.archive_nav_month {
+			width: 20%
+		}
+		
+		table.news_archive_table thead tr th.archive_nav_month {
+			width: 60%
+		}
+		
+		.archive_selected_date {
+			border-bottom: 1px solid #FF9933;
+			display: table; 
+			width: 600px;
+		}
+		
+		.archive_disclaimer_text {
+			padding-top: 10px;
+		}
+
+		h1#news_release_header {
+			height: 20px;
+			font-size: 20px;
+		}
+		h1#news_release_header span {
+			height: 20px;
+			background-image: url(images/cms/pageTitle_newsRelease.gif);
+		}
+		
+		.news_release_title {
+			margin-top: 1.3em;
+		}
+		
+		p.date { margin-bottom: 0; }
+	
+
+
+
+		h2#subheader_latest_news_releases {
+			height: 14px;
+			font-size: 14px;
+			margin-bottom: 1.1em;
+		}
+		h2#subheader_latest_news_releases span {
+			height: 14px;
+			background-image: url(images/cms/subHeading_latestNewsReleases.gif);
+		}
+		
+		.news_releases {
+			margin-top: 0;
+		}
+	
+
+
+
+		.route_performance_page h2 {
+			margin-bottom: 0.25em;
+		}
+	
+		h1#route_performance_header {
+			height: 20px;
+			font-size: 20px;
+		}
+		h1#route_performance_header span {
+			height: 20px;
+			background-image: url(images/cms/pageTitle_route_performance.gif);
+		}
+		
+		.route_performance_page_horiz .otp_summary {
+		}
+		
+		.otp_summary h5 {
+			margin-top: 0;
+		}
+		
+		.otp_summary .summary_block {
+			padding-bottom: 20px;
+			margin-bottom: 20px;
+			border: 1px solid #d4d4d4;
+			border-width: 0 0 1px 0;
+		}
+		
+		.otp_summary table th {
+			font-size: 70%;
+			background-color: white;
+			color: black;
+		}
+		
+		.otp_summary table th.label {
+			background-color: #D4D4D4;
+			color: #1375B3;
+			border-bottom: 1px solid #a9a9a9;
+		}
+		
+		.otp_summary table td {
+			background-color: #FEE1A6;
+		}
+		
+		.otp_summary table th, .otp_summary table td {
+			text-align: center;
+			padding: 5px;
+			border: 1px inset #d4d4d4;
+			border-width: 0 1px;
+		}
+		
+		.otp_delays {
+			font-size: 70%;
+		}
+		
+		.otp_delays h5 {
+			margin: 0;
+			font-size: 120%;
+		}
+		
+		.otp_delays .month_year {
+		}
+		
+		.otp_delays .special_header {
+			background-color: #D4D4D4;
+			text-align: center;
+			padding: 5px;
+			border: 1px solid #a9a9a9;
+		}
+		
+		.otp_details_block {
+			background-color: white;
+			border: 1px solid #a9a9a9;
+			border-top: 0;
+		}
+		
+		.otp_details {
+			border-top: 1px solid #d4d4d4;
+		}
+		
+		.first_details {
+			border: 0;
+		}
+		
+		.otp_details .label {
+			background-color: #E8E8E8;
+			padding: 5px;
+		}
+		
+		.otp_disclaimer, .otp_route_display ul {
+			font-size: 80%;
+			margin-top: 5px;
+		}
+		
+		.otp_route_display img {
+			vertical-align: bottom;
+		}
+		
+		.otp_route_display ul li {
+			margin: 0;
+		}
+		
+		.otp_details_block ul {
+			margin: 5px;
+		}
+		
+		.otp_details_block li {
+			font-size: 100%;
+		}
+		
+		.route_performance_page_horiz .otp_route_display {
+			margin-top: 1em;
+		}
+		
+		.otp_route_display ul {
+			margin: 5px 0 0;
+		}
+		
+		.otp_route_display ul li {
+			padding-bottom: 5px;
+		}
+	
+
+
+
+		.summary_block .no_sep {
+			margin-top: 20px;
+		}
+	
+
+
+
+		h1#routes_header {
+			height: 20px;
+			font-size: 20px;
+		}
+		h1#routes_header span {
+			height: 20px;
+			background-image: url(images/cms/pageTitle_routes.gif);
+		}
+		
+		.region_name {
+		  margin-bottom: 10px;
+		}
+		
+		.route_atlas_link {
+			text-align: right;
+		}
+		
+		#routes_browse_table {
+		  margin-top: 20px;
+		}
+	
+
+
+
+		.route_details { margin-bottom: 10px; }
+		.route_name { margin: 0; }
+		.route_tools { 
+			text-align: right; 
+			font-size: 65%; 
+			margin-bottom: 5px;
+		}
+		
+		.route_tools img {
+			vertical-align: middle;
+		}
+		
+		.route_horiz .route_graphic {
+		  margin-bottom: 20px;
+		}
+		
+		.route_horiz .route_table{
+			margin-top: 0.4em;
+		}
+		
+		.route_horiz #summary_table {
+			margin-bottom: 1.3em;
+		}
+		
+		ul.route_accom {
+		  margin-top: 0;
+		}
+		
+		.route_horiz .route_table,
+		.route_vert .route_table {
+			clear: both;
+			margin-top: 20px;
+		}
+		
+		.route_horiz .route_table .cell,
+		.route_vert .route_table .cell {
+		  font-size: 65%;
+		}
+		
+		.route_destinations {
+		  font-size: 80%;
+		}
+		
+		.route_detail_table {
+			margin-top: 5px;
+		}
+		
+		.route_detail_table .cell {
+			font-size: 65%;
+		}
+	
+
+
+		h1#routes_header {
+			height: 20px;
+			font-size: 20px;
+		}
+		h1#routes_header span {
+			height: 20px;
+			background-image: url(images/cms/pageTitle_routes.gif);
+		}
+		
+		.header_link {
+			text-align: right;
+		}
+		
+		.header_content {
+			margin-bottom: 1em;
+		}
+		
+		.header_content img.logo {
+			float: left;
+			padding-right: 10px;
+		}
+		
+		.header_content .page_col1 {
+			border-right: 1px solid #cccccc;
+			padding-right: 4px;
+		}
+		
+		.route_table .effective_date {
+			font-style: italic; 
+		}
+		
+		#route_index_table {
+ 			margin-top: 20px;
+		}
+
+		.route_table thead th {
+		  padding-top: 0;
+		  padding-bottom: 0;
+		}
+		
+		.route_table  .route {
+		  padding-left: 10px;
+		  padding-right: 5px;
+		}
+		
+		.route_table  .major_cities {
+		  padding-left: 5px;
+		  padding-right: 5px;
+		}		
+		
+		.route_table  .region {
+		  padding-left: 5px;
+		  padding-right: 10px;
+		}
+		
+		.route_table th img {
+		  vertical-align: bottom;
+		}
+	
+
+
+
+		h1#route_performance_header {
+			height: 20px;
+			font-size: 20px;
+		}
+		h1#route_performance_header span {
+			height: 20px;
+			background-image: url(images/cms/pageTitle_route_performance.gif);
+		}
+		
+		#otp_table {
+			table-layout: auto;
+		}
+		
+		#otp_table .left {
+			width: 33%;
+		}
+		
+		#otp_table .center {
+			width: 66%;
+		}
+		
+		#route_performance_table {
+		  margin-top: 20px;
+		}
+		
+		#route_performance_table .std_table .major_cities .major_cities {
+		  padding-left: 5px;
+		  parring-right: 10px;
+		}
+	
+
+
+
+		h1#search_header {
+			height: 19px;
+			font-size: 19px;
+		}
+		h1#search_header span {
+			height: 19px;
+			background-image: url(images/cms/pageTitle_search.gif);
+		}
+		
+		#search_form h5 {
+			margin-top: 0;
+		}
+		
+		.search_submit {
+			text-align: right;
+			clear:both;
+		}
+		
+		#included_sections {
+			overflow: hidden;
+			zoom: 1;
+			margin: 0;
+		}
+		
+		#included_sections li {
+			list-style-type: none;
+			background: transparent url();
+			padding: 0;
+			float: left;
+			display: block;
+			width: 33%;
+		}
+		
+		#search_form .form_label { width: 12%; }
+		#search_form .form_item { width: 87%; }
+	
+
+
+
+		h1#search_results_header {
+			height: 20px;
+			font-size: 20px;
+		}
+		h1#search_results_header span {
+			height: 20px;
+			background-image: url(images/cms/pageTitle_searchResults.gif);
+		}
+		
+		#results_search_query {
+			width: 35%;
+			margin-right: 10px;
+		}
+		
+		#results_search_options {
+			overflow: hidden;
+			zoom: 1;
+			margin: 0;
+		}
+		
+		#results_search_options li {
+			float: left;
+			display: block;
+			margin-right: 20px;
+		}
+		
+		#results_search_options .input_holder, .search_results .more_button {
+			list-style-type: none;
+			background: transparent url();
+			padding: 0;
+		}
+		
+		#results_form input.radio { margin-right: 10px; }
+		
+		.search_terms { font-weight: bold; }
+		.results_category { display: inline; margin: 0; }
+		.results_count { font-size: 70%; }
+		
+		.search_results {
+			margin: 0 0 1.3em;
+		}
+	
+
+
+
+		h1#service_alerts_header {
+			height: 21px;
+			font-size: 21px;
+		}
+		h1#service_alerts_header span {
+			height: 21px;
+			background-image: url(images/cms/pageTitle_serviceAlertsAndNotices.gif);
+		}
+		h2#subheader_service_alerts {
+			height: 14px;
+			font-size: 14px;
+		}
+		h2#subheader_service_alerts span {
+			height: 14px;
+			background-image: url(images/cms/subHeading_serviceAlerts.gif);
+		}
+		h2#subheader_passenger_service_notices {
+			height: 14px;
+			font-size: 14px;
+		}
+		h2#subheader_passenger_service_notices span {
+			height: 14px;
+			background-image: url(images/cms/subHeading_passengerServiceNotices.gif);
+		}
+
+		.service_alerts_intro_text {
+			margin-bottom: 1.8em;
+		}
+		
+		.service_alerts {
+			margin: 0 0 1.9em;
+		}
+		
+		.service_alert .alert_date {
+			font-style: italic;
+		}
+	
+
+
+
+		#stations_region_list td {
+			border-bottom: 0;
+		}
+		
+		#station_lists h5 {
+		  margin-bottom: 0;
+		}
+		
+		.stations_list {
+			margin: 0;
+		}
+		
+		.stations_list li {
+			list-style-type: none;
+			list-style-image: none;
+			padding-bottom: 5px;
+		}
+	
+
+
+
+	  
+		.station_image {
+			float: right;
+			margin-left: 20px;
+		}
+		
+		.station_tools {
+			margin-left: 0;
+			margin-right: 0;
+			width: 68%;
+		}
+		
+		.station_tools li {
+			float: left;
+			padding-left: 15px;
+			list-style: none;
+			background: white url(images/bullet_circleTri-LtBlue.gif) no-repeat 0% 85%;
+			width: 29%;
+		}
+		
+		#station_details_block {
+		  margin-top: 20px;
+		}
+	
+
+
+
+		h2#stations_dam {
+			height: 14px;
+			font-size: 14px;
+			margin-bottom: 0;
+		}
+		h2#stations_dam span {
+			height: 14px;
+			background-image: url(images/cms/subHeading_detailedAreaMap.gif);
+		}
+		h2#stations_dd span { 
+		height: 14px; 
+		background-image: url(images/cms/subHeading_stationDrivingDirections.gif); 
+		}
+
+
+		
+		#detail_map_view {
+			margin-top: 1.3em;
+		}
+		
+		#detail_area_map_addr { margin-bottom: 0.8em; }
+	
+
+
+
+		#station_hours_details {
+		}
+		
+		.hours_table {
+		  margin-top: 20px;
+		}
+		
+		.hours_table .day {
+		  width: 50%;
+		  
+		  vertical-align: middle;
+		}
+		
+		.hours_table .to {
+		  text-align: center;
+		  padding-right: 6%;
+		  vertical-align: middle;
+		}
+		
+		.hours_table .close { }
+	
+
+
+
+		h2#stations_index_findstation {
+			height: 14px;
+			font-size: 14px;
+			margin-bottom: 0;
+		}
+		h2#stations_index_findstation span {
+			height: 14px;
+			background-image: url(images/cms/subheading_findastation.gif);
+		}
+		
+		h2#find_by_code {
+			height: 14px;
+			font-size: 14px;
+			margin-bottom: 0;
+		}
+		h2#find_by_code span {
+			height: 14px;
+			background-image: url(images/cms/subHeading_findAStationByCode.gif);
+		}
+		
+		#find_station_form_city input, #find_station_form_code input {
+			vertical-align: middle;
+		}
+		
+		#find_station_form_city .form_line {
+			margin: 0 0 10px;
+		}
+		
+		#find_station_form_city .form_label {
+			width: 13%;
+		}
+		
+		#find_station_form_city .form_item {
+			width: 87%;
+		}
+		
+		#find_station_form_city .city {
+			width: 50%;
+		}
+		
+		#find_station_form_city .zip {
+			width: 20%;
+		}
+		
+		#station_code {
+			width: 3em;
+			margin-right: 10px;
+		}
+		
+		#find_by_code {
+			margin-top: 0;
+		}
+	
+
+
+
+	  
+		h2#stations_search_results {
+			height: 14px;
+			font-size: 14px;
+		}
+		
+		h2#stations_search_results span {
+			height: 14px;
+			background-image: url(images/cms/subHeading_stationSearchRes.gif);
+		}
+		
+		.search_results {
+			margin-bottom: 0.95em;
+		}
+		
+		.search_results .search_result {
+		  clear: both;
+		  vertical-align: top;
+		  font-size: 70%;
+		  padding-bottom: 0.35em;
+		}
+		
+		.search_results .search_result .result_desc {
+		  width: 70%;
+		  float: left;
+		}
+		
+		.search_results .search_result .result_desc .station_number{
+		  color:SteelBlue;
+                float:left;		
+		}
+		
+		.one_digit{
+		  padding-left:14px;		
+		}
+
+		.two_digit{
+		  padding-left:7px;		
+		}
+
+
+		
+		.search_results .search_result .result_desc .station_name{
+		  padding-left:28px;
+		  display:block;
+		}
+		
+
+		.search_results .search_result .result_tools {
+		  float: left;
+		  width: 25%;
+		  margin-left: 5%;
+		}
+		
+		.search_results .search_result .result_tools a {
+		  margin-right: 10px;
+		}
+		
+		#search_result_content {
+			margin-bottom: 0.65em;
+			padding-bottom: 0.65em;
+			border-bottom: 1px solid #A9A9A9;
+		}
+		
+		#revise_search_label {
+			margin-top: 0;
+		}
+		
+		.revise_field { 
+			float: left; 
+			margin-right: 20px; 
+		}
+		.revise_field label { 
+			display: block; 
+			font-weight: normal;
+		}
+		.revise_field input { 
+			width: 99%; 
+		}
+		#city_revise_field { 
+			width: 30%; 
+		}
+		#zip_revise_field { 
+			width: 10%; 
+		}
+		#revise_submit { 
+			margin-top: 1em; 
+		}
+		#revise_exclude_thurway_label, #revise_exclude_thurway { 
+			font-weight: normal; 
+			vertical-align: middle;
+		}
+	
+
+
+
+		h1#testimony_header {
+			height: 27px;
+			font-size: 27px;
+			margin-bottom: 0.75em;
+		}
+		h1#testimony_header span {
+			height: 27px;
+			background-image: url(images/cms/pageTitle_testimony.gif);
+		}
+		h2#subheader_2008 {
+			height: 14px;
+			font-size: 14px;
+		}
+		h2#subheader_2008 span {
+			height: 14px;
+			background-image: url(images/cms/subHeading_2008.gif);
+		}
+		h2#subheader_2007 {
+			height: 14px;
+			font-size: 14px;
+		}
+		h2#subheader_2007 span {
+			height: 14px;
+			background-image: url(images/cms/subHeading_2007.gif);
+		}
+		
+		.testimonies {
+			margin: 0 0 1.9em;
+		}
+		
+		.testimonies .testimony {
+			margin-bottom: 0.9em;
+		}
+		
+		.testimony .testimony_date {
+			font-style: italic;
+		}
+li.search {
+      margin: 0 0 0.5em;
+    }
+
+.bulletrt {
+clear:right;
+overflow:hidden;
+}
+	
+
+

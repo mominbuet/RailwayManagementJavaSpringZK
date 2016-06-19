@@ -1,0 +1,254 @@
+
+		.tabbed_header_content {
+			border-right: 0;
+			padding: 5px 0 5px 5px;
+		}
+	
+
+			#top_nav_wrapper
+			{
+				position: relative;
+				width: 960px;
+				margin: 0 auto;
+				height: 97px;
+				padding: 0 19px;
+				text-align: left;
+				background: #c9e5f3 url(images/bg_darkblue.gif) repeat-y scroll -200px top;
+				z-index: 95;
+			}
+			* html #top_nav_wrapper {
+				padding-bottom: 0px;
+			}
+			#top_navigation_body
+			{
+				position: relative;
+				width: 960px;
+				height: 82px;
+				background: #C9E5F3 url(images/gradient-header.gif) repeat-y scroll -30px top;
+				padding-top: 15px;
+				z-index: 96;
+				zoom: 1;
+			}
+			#top_nav_left_cover {
+				position: absolute;
+				height: 97px;
+				width: 30px;
+				left: -10px;
+				top: 0px;
+				background: #c9e5f3 url(images/gradient-header.gif) no-repeat scroll left top;
+				overflow: hidden;
+				z-index: 97;
+				font-size: 0;
+			}
+			#amtrak_logo
+			{
+				width: 320px;
+				float: left;
+			}
+			#login_greeting {
+				clear:both;
+				font-size: 67%;
+				color: #fff;
+				font-weight: bold;
+				bottom: 22px;
+				left: 15px;
+				position: absolute;
+				z-index: 10;
+			}
+			#amtrak_logo a:hover
+			{
+				background-color: transparent;	
+			}
+			#language_select_wrapper
+			{
+				float:left;
+
+			}
+			#language_select_wrapper select
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;	
+				font-size: 67%;
+margin-left:9px;
+			}
+			#nav_link_wrapper
+			{
+				float: left;
+				width: 316px;
+				text-align: right;
+				padding-right: 0px;
+			}
+			#nav_link_wrapper form
+			{
+				display: inline;
+padding-left:34px;
+
+			}
+			#nav_link_wrapper label
+			{
+				font-size: 100%;
+				font-weight: normal;
+			}
+			#nav_link_wrapper label a
+			{
+				//margin-right: 9px;
+			}
+			#nav_link_wrapper input
+			{
+				vertical-align: text-bottom;
+			}
+			#nav_link_wrapper input.text
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 67%;	
+				border: 1px solid #7F9DB9;
+				vertical-align: baseline;
+				width:100px;
+			}
+			#nav_link_wrapper a
+			{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 67%;
+				color: #003E89;
+				margin: 0px 0px 0 0; 
+				padding: 0 0 1px 0;
+			}
+			#button_wrapper {
+				position: absolute;
+				top: 68px;
+				left: 5px;
+				width: 956px;
+				height: 29px;
+				z-index: 98;
+			}
+			#button_wrapper #preston
+			{
+				position: absolute;	
+				top: -61px;
+				left: 167px;
+				z-index: 99;
+			}
+			#buttons
+			{
+				margin: 0 0 0 308px;
+				padding: 0;
+				zoom:1;
+			}
+			* html #buttons { /* ie6 hack */
+				margin-left: 318px;
+			}
+			#buttons li
+			{
+				position: relative;
+				float: left;
+				display: block;
+				padding: 0;
+				margin: 0 0 0 6px;
+				z-index: 99;
+			}
+			#buttons li a
+			{
+				position: relative;
+				z-index: 1;
+			}
+			#buttons li a img
+			{
+				display: block;
+			}
+			#buttons li a:hover
+			{
+				background-color: transparent;	
+			}
+			#buttons li .dynlist
+			{
+				position: absolute;
+				background: transparent url(images/dynmenu_top.png) scroll no-repeat left top;
+				padding: 16px 0 0 0;
+				margin: 0;
+				z-index: 2;
+				top: 30px;
+				left: -5px;
+				width: 155px;
+				display: none;
+			}
+			* html #buttons li .dynlist
+			{
+				padding-top: 15px;
+				background-image: url(images/dynmenu_top.gif)
+			}
+			*:first-child+html #buttons li .dynlist
+			{
+				padding-top: 15px;
+			}
+			#buttons li .first_highlighted
+			{
+				background-position: -155px top;
+			}
+			#buttons li .dynlist ul {
+				margin: 0;
+				padding: 0 0 10px 0;
+				background: transparent url(images/dynmenu_bottom.png) scroll no-repeat left bottom;
+			}
+			* html #buttons li .dynlist ul {
+				background-image: url(images/dynmenu_bottom.gif);
+			}
+			#buttons li .dynlist_active {
+				display: block;
+			}
+			#buttons li .last_highlighted ul {
+				background-position: -155px bottom;
+			}
+			#buttons li ul li
+			{
+				position: static;
+				float: none;
+				padding: 0 5px;
+				margin: 0;
+				background: transparent url(images/dynmenu_middle.png) scroll repeat-y top left;
+				line-height: 1.1;
+				font-size: 100%;
+			}
+			* html #buttons li ul li {
+				background-image: none;
+			}
+			#buttons li ul li a
+			{
+				border-top: 1px solid #ffa601;
+				display: block;
+				padding: 5px 10px;
+				margin: none;
+				color: #003e89;
+				text-decoration: none;
+				background-color: #fee7b8;
+			}
+			#buttons li ul li a:link, #buttons li ul li a:active, #buttons li ul li a:visited
+			{
+				color: #003e89;
+				text-decoration: none;
+			}
+			#buttons li ul li a:hover
+			{
+				color: #003e89;
+				text-decoration: none;
+				background-color: #fef5e4;
+			}
+			#buttons li ul li:first-child a, #buttons li ul li.ie6_first_child a
+			{
+				border-top: none;
+				padding-top: 0;
+			}
+			#buttons li ul li:last-child a, #buttons li ul li.ie6_last_child a
+			{
+				padding-bottom: 0;
+			}
+			* html #button_wrapper { /* ie6 hack */
+				bottom: 11px;
+			}
+	
+
+
+
+
+
+
+
+

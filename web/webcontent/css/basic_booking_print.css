@@ -1,0 +1,44 @@
+
+
+
+
+			.itinerary_wrapper #totalprice .content_label
+			{
+				font-size: 123%; /* of 65% -- see above */
+				width: 70%;	
+				text-align: right;
+				font-weight: bold;
+			}	
+			.itinerary_wrapper #totalprice .content_item
+			{
+				font-size: 123%; /* of 65% -- see above */
+				text-align: right;
+				float: right;
+				font-weight: bold;
+			}
+			.itinerary_wrapper .buttons
+			{
+				margin: 0 0 10px 0;
+				position: relative;
+				left: -3px;			
+			}
+			.itinerary_wrapper .buttons a
+			{
+				margin-right: 10px;
+			}
+			.itinerary_wrapper .buttons a:hover
+			{
+				text-decoration: none;
+				background-color:#fff;	
+			}
+	
+
+
+
+		.travel_faqs {
+			width: 250px;
+			margin: 20px;
+		}
+	
+
+

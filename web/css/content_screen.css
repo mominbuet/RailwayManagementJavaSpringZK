@@ -1,0 +1,151 @@
+
+
+
+
+			h2.confirmation {	
+				overflow: hidden;
+				height: 16px;
+				font-size: 16px;
+				padding: 0;
+				position: relative;
+				margin: 10px 0;
+			}
+			h2.confirmation span {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				background: transparent url(images/subheading1_confirmation.gif) no-repeat scroll left top;
+				height: 16px;
+				width: 100%;
+				z-index: 10;
+			}
+			#confirmation_col_1 {
+				width: 295px;
+				float: left;
+			}
+			#confirmation_col_1 p.thank_you {
+				color: #328acc;
+			}
+			#confirmation_col_1 .not_a_ticket {
+				color: #c00;
+			}
+			#confirmation_res_info {
+				text-align: center;
+				color: #328acc;
+				width: 285px;
+				background: transparent url(images/box_top_resnumber.gif) no-repeat scroll left top;
+			}
+			#confirmation_res_info p {
+				padding: 10px;
+				background: transparent url(images/box_bottom_resnumber.gif) no-repeat scroll left bottom;
+			}
+			#confirmation_chargetotal {
+				background-color: #cae4f1;
+			}
+			#confirmation_col_2 {
+				width: 295px;
+				float: right;
+			}
+			#bar_code {
+				display: block;
+				width: 140px;
+				height: 130px;
+			}
+			#confirmation_col_1 .travel_faqs {
+				display: none;
+			}
+			#print_icon {
+				text-align: right;
+				margin-bottom: 10px;
+			}
+			.offset_travel {
+				clear: both;
+			}
+			#carbon_offset {
+				padding-left: 150px;
+				background: transparent url(images/carbon_fund.gif) no-repeat scroll top left;
+			}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

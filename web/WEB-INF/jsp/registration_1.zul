@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="User REGISTRATION" ?>
+<?init class="org.zkoss.zkplus.databind.AnnotateDataBinderInit" ?>
+<zk xmlns="http://www.zkoss.org/2005/zul" xmlns:html="http://www.w3.org/1999/xhtml">
+    <zscript>
+        import QueryProcess.*;
+        import UserHandler.*;
+        import maphandler.getStations;
+        import java.util.List;
+        import orm.*;
+        Customer user=new Customer();  
+        List stations =new getStations().retriveStations();   
+        
+    </zscript>
+    <window id="container">
+<zscript><![CDATA[
+  for(int i=0;i<stations.size();i++) {
+  base_info bi=(base_info) stations.get(i);
+  Label ss = new Label(bi.getBase_name());
+  
+  
+  ss.tooltiptext = bi.getLoc().getLongitude().toString();
+    container.appendChild(ss);
+  }
+]]></zscript>
+</window>
+
+    <div align="center">
+        <window title="User Information" width="40%">                              
+            <grid>
+                <columns>
+                    <column width="20%"/>
+                    <column />
+                </columns>
+                <rows>
+                    <row align="center">
+                        <label value="Firstname" tooltiptext=""/> 
+                        <textbox width="60%" value="@bind(user.firstname)" constraint="no empty:Enter First Name" />
+                    </row>
+                    <row align="center">
+                        <label value="Lastname"/> 
+                        <textbox value="@bind(user.lastname)" width="60%" constraint="no empty:Enter Last Name" />
+                    </row>
+                    <row align="center">
+                        <label value="Gender"/>   
+                        <radiogroup width="60%" Id="" >
+                            <radio  label="Male" checked="true"/>
+                            <radio label="Female"/>
+                        </radiogroup>
+                    </row>
+                    <row align="center">
+                        <label value="Phone/Mobile No."/>                           
+                        <textbox value="@bind(user.phone)" width="60%"/>
+                    </row>
+                    <row align="center">
+                        <label value="SSN"/>
+                        <textbox value="@bind(user.ssn)" width="60%" constraint="/[1-9][0-9]+/:Invalid Social Security Number"/>
+
+                    </row>
+                </rows>
+
+            </grid>
+        </window>
+        <html:br/>
+            <window title="Login Data" width="40%">                              
+            <grid>
+                <columns>
+                    <column width="20%"/>
+                    <column />
+                </columns>
+                <rows >
+                    <row align="center">
+                        <label value="Email"/>                                                  
+                        <textbox value="@bind(user.email)" width="60%" constraint="/.+@.+\.[a-z]+/: Invalid e-mail address" />
+                    </row>           
+                    <row align="center">
+                        <label value="Password"/>
+                        <textbox id="pass1" type="password" width="60%"/>
+                    </row>
+                    <row align="center">
+                        <label value="Confirm Password" />
+                        
+                        <textbox id="pass2" type="password" width="60%">  
+                             <attribute name="onChange"><![CDATA[
+                                l1.setVisible(false);
+                                l2.setVisible(false);
+                                if(pass2.getValue().compareTo(pass1.getValue())!=0)
+                                {
+                                    pass1.setValue("1212121212121212121212121212121112");
+                                    pass2.setValue("1212121212121212124545421212121112");
+                                    l2.setVisible(true);
+                                }
+                                else
+                                    l1.setVisible(true);
+                                    //user.setPassword(pass1.getValue());
+                            ]]> 
+                            </attribute>
+                        </textbox>
+                    </row>
+                    <row>
+                        <label id="l1" visible="false" value="true" />
+                        <label id="l2" visible="false" value="false"/>
+                    </row>
+                   
+                </rows>
+
+            </grid>
+        </window> 
+         <window title="" width="40%" apply="ViewController.userReg">                              
+            <grid>
+                <columns>
+                    <column width="20%"/>
+                    <column />
+                </columns>
+                <rows>
+                     <row spans="2" align="center" >
+                        <hlayout>
+                            <checkbox id="acceptTermBox"/> Accept Term of Use
+                        </hlayout>
+                     </row>
+                    <row align="right" spans="2">
+                        <button id="submit" label="Submit" disabled="true">
+                            <attribute name="onClick"><![CDATA[
+                     
+                                new Customer_q().saveCustomer(user);
+                            ]]> 
+                            </attribute>
+                        </button>
+                    </row>
+                </rows>
+
+            </grid>
+        </window> 
+     </div>
+</zk>

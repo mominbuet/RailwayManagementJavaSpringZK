@@ -1,0 +1,4 @@
+<div apply="modal_dialog.ModalDialogController">
+	<button id="orderBtn" label="Order Coffee" autodisable="self" />
+</div>
+

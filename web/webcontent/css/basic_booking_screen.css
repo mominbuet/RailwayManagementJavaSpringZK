@@ -1,0 +1,109 @@
+
+
+
+
+			#itinerary_wrapper
+			{
+				border: 5px solid #000;
+			}
+			h2.purchase_summary {
+				height: 16px;
+				overflow: hidden;
+				padding: 0;
+				margin: 5px 0;
+				position: relative;
+			}
+			h2.purchase_summary span {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				background: transparent url(images/subheading1_purchasesummary.gif) no-repeat scroll left top;
+				height: 16px;
+				width: 100%;
+				z-index: 10;
+			}
+			
+			h2.refund_summary {
+				height: 16px;
+				font-size: 16px;
+				margin-bottom: 0;
+			}
+			h2.refund_summary span {
+				height: 16px;
+				background-image: url(images/subheading1_refundsummary.gif);
+			}
+			h2.your_itinerary {
+				height: 16px;
+				overflow: hidden;
+				padding: 0;
+				margin: 0;
+				position: relative;
+			}
+			h2.your_itinerary span {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				background: transparent url(images/subheading1_youritinerary.gif) no-repeat scroll left top;
+				height: 16px;
+				width: 100%;
+				z-index: 10
+			}
+			
+			#itinerary_wrapper .content_area
+			{
+				padding-left: 10px;		
+			}
+			#itinerary_wrapper .bike_charge_wrapper {
+				padding-left: 10px;
+			}
+			.itinerary_wrapper #totalprice
+			{
+				border-top: 1px solid #b0b0b0;
+				background-color: #cae4f1;
+				padding: 10px;
+			}		
+			#itinerary_wrapper #top_left_corner
+			{
+				position: absolute;
+				margin: -5px 0 0 -5px;
+			}
+			#itinerary_wrapper #bottom_left_corner
+			{
+				position: absolute;
+				margin: -8px 0 0 -5px;
+			}
+			#itinerary_wrapper #bottom_right_corner
+			{
+				position: absolute;
+				margin: -8px 0 0 282px;
+			}
+	
+
+
+
+		.travel_faqs {
+			width: 304px;
+			margin: 20px 0 0 16px;
+			position: relative;
+			z-index: 2;
+		}
+		.travel_faqs h2 {
+			height: 16px;
+			overflow: hidden;
+			padding: 0;
+			margin: 5px 0;
+			position: relative;
+			z-index: 3;
+		}
+		.travel_faqs h2 span {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background: transparent url(images/subheading1_travelfaqs.gif) no-repeat scroll left top;
+			height: 16px;
+			width: 100%;
+			z-index: 10;
+		}
+	
+
+

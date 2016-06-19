@@ -1,0 +1,49 @@
+
+body, #outer_wrapper, #top_level_wrapper  {background-color: white; background-image: none; width:600px;}
+		#left_column_wrapper, #lower_wrapper #shoulder, #lower_wrapper #top_bar {display: none;}
+
+
+		.page_tools { 
+			display: none;
+		}
+		 
+		.links{display: none;}
+		.printlinks {float:left;display:block;clear:both}
+		.footer{float:bottom}
+		
+		
+            		
+		#top_nav_left_cover, #top_navigation_body {
+			display: none;
+		}
+
+		
+		#footer {float: left;}
+	       #footer .links {display: none;}
+		#footer .printlinks {float: left; display:block}
+             
+		
+		
+		 
+#CMS_leftNav {
+			display: none;
+		}
+
+#CMS_pageTop {
+			display: none;
+		}
+
+#toolbar {
+			display: none;
+		}
+
+#hideprint {
+			display: none;
+		}
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+/*---------------------------------------------------------- 
+  CALENDAR 
+ ---------------------------------------------------------- */
+a.calLink {
+ background:url(/images/en/icon_calendar.gif) no-repeat center;
+ cursor:pointer;
+ margin:0 4px;
+ padding:0px 10px 5px 10px;
+ text-decoration:none;
+ vertical-align:top;
+}
+
+.calContainer {
+ display:none;
+ position:absolute;
+ z-index: 1;
+}
+.calContainerTrainStatus {
+ width:269px
+}
+
+.yui-calcontainer .calclose {
+ background:url("/images/en/calx.gif") no-repeat;
+}
+
+.yui-calendar .calnavleft {
+ background:url("/images/en/callt.gif") no-repeat;
+ height:12px;
+ width:12px;
+ text-indent:0em;
+}
+
+.yui-calendar .calnavright {
+ background:url("/images/en/calrt.gif") no-repeat;
+ height:12px;
+ width:12px;
+}
+
+DIV.cal {
+ height:100%;
+ width:100%;
+}
+
+/*AIBE-2147 */
+a:focus {
+	outline: dashed;
+	outline-width: thin;
+}
+

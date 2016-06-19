@@ -1,0 +1,2092 @@
+
+
+
+			#farefinder .error, #login_popout .error {
+
+
+				padding: 5px;
+
+
+				border: 1px solid #c00;
+
+
+				line-height: 1.3;
+
+
+				background-image: none;
+
+
+				/* Without the "Holly Hack", error messages don't have a border or background in farefinder alone in IE6.
+
+
+				Go figure. So: */
+
+
+				height: 1%;
+
+
+				overflow: auto;
+
+
+			}
+
+
+			#farefinder .error {
+
+
+				margin: 0 10px 15px 10px;
+
+
+			}
+
+
+			#farefinder {
+
+
+				width: 300px;
+
+
+				background-color: black;
+
+
+				
+
+
+				position: relative;
+
+
+				zoom: 1;
+
+
+				
+
+
+				padding: 0 0 4px 0;
+
+
+			}
+
+
+			#ff_tabbar {
+
+
+				width: 300px;
+
+
+				height: 36px;
+
+
+				position: relative;
+
+
+			}
+
+
+			#ff_tabbar div {
+
+
+				position: absolute;
+
+
+				top: 0px;
+
+
+				height: 36px;
+
+
+				cursor: pointer;
+
+
+				overflow: hidden;
+
+
+				color: white;
+
+
+			}
+
+
+			#ff_tabbar div span {
+
+
+				display: block;
+
+
+				position: absolute;
+
+
+				top: 0px;
+
+
+				left: 0px;
+
+
+				height: 36px;
+
+
+				z-index: 10;
+
+
+				background-image: url(images/ffTabs_all.gif);
+
+
+			}
+
+
+
+
+
+			#ff_tabbar_tickets { left: 0px; width: 72px; }
+
+
+			#ff_tabbar_tickets span { width: 72px; background-position: 0px 0px;}
+
+
+			#ff_tabbar_tickets.active span { background-position: 0px -36px;}
+
+
+
+
+
+			#ff_tabbar_status { left: 72px;	width: 64px; }
+
+
+			#ff_tabbar_status span { width: 64px; background-position: -72px 0px;}
+
+
+			#ff_tabbar_status.active span { background-position: -72px -36px;}
+
+
+
+
+
+			#ff_tabbar_schedules { left: 136px; width: 92px; }
+
+
+			#ff_tabbar_schedules span { width: 92px; background-position: -136px 0px;}
+
+
+			#ff_tabbar_schedules.active span { background-position: -136px -36px;}
+
+
+
+
+
+			#ff_tabbar_mytrip { left: 228px; width: 72px; }
+
+
+			#ff_tabbar_mytrip span { width: 72px; background-position: -228px 0px;}
+
+
+			#ff_tabbar_mytrip.active span { background-position: -228px -36px;}
+
+
+
+
+
+			.farefinder_tabbody {
+
+
+				background-color: white;
+
+
+				font-size: 67%;
+
+
+				padding: 15px 0px 10px 0px;
+
+
+				margin: 0 4px;
+
+
+				display: none;
+
+
+			}
+
+
+			.farefinder_tabbody, .farefinder_tabbody * {
+
+
+			  zoom: 1;
+
+
+			}
+
+
+			.ff_active {
+
+
+				display: block;
+
+
+			}
+
+
+			.farefinder_tabbody h2 {
+
+
+				display: none;
+
+
+			}
+
+
+			.farefinder_tabbody .calendar_link {
+
+
+				/* we only have to do this so that when the images are turned off in firefox the alt text doesn't have a line through it. */
+
+
+				text-decoration: none;
+
+
+			}
+
+
+			#farefinder .farefinder_tabbody h3 {
+
+
+				margin: 0 0 10px 0;
+
+
+				padding: 0;
+
+
+				color: #369;
+
+
+				font-size: 120%; /* of 67% */
+
+
+			}
+
+
+			#farefinder .farefinder_tabbody p {
+
+
+				margin: 0;
+
+
+				padding: 0;
+
+
+				font-size: 100%; /* of 67% */
+
+
+			}
+
+
+			.farefinder_tabbody input {
+
+
+				margin: 0;
+
+
+				padding: 0;
+
+
+			}
+
+
+			.farefinder_tabbody label {
+
+
+				font-size: 100%; /* of 67% */
+
+
+			}
+
+
+			.farefinder_tabbody .subdiv {
+
+
+				padding-left: 10px;
+
+
+				padding-right: 10px;
+
+
+				position: relative;
+
+
+			}
+			.farefinder_tabbody .subdiv1 {
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+
+
+			.ff_city_wrapper label, #tickets_dep_date_time label, #tickets_ret_date_time label, #ff_tickets_passengers_subdiv label, #schedules_dep_date_time label, #schedules_ret_date_time label, #ff_schedules_criteria_subdiv label, #redeem_dep_date_time label {
+
+
+				display: block;
+
+
+				margin-bottom: 4px;
+
+
+			}
+
+
+			.ff_city_wrapper label, #tickets_dep_date_time label, #tickets_ret_date_time label {
+
+
+				font-weight: bold;
+
+
+			}
+
+
+			#ff_tickets_tt_cities_subdiv, #ff_schedules_tt_cities_subdiv, #ff_redeem_member_details_subdev {
+
+
+				padding-bottom: 15px;
+
+
+				border-bottom: 1px #b0b0b0 solid;
+
+
+			}
+
+
+			#tickets_trip_type label {
+
+
+				margin-right: 13px;
+
+
+				font-weight: normal;
+
+
+			}
+
+
+			.ff_city_wrapper {
+
+
+				position: relative;
+
+
+				margin-top: 12px;
+
+
+				zoom: 1;
+
+
+			}
+
+
+			.ff_city_wrapper input {
+
+
+				padding: 0;
+
+
+				width: 240px;
+
+
+			}
+
+
+			.ff_city_wrapper .find_a_station {
+
+
+				position: absolute;
+
+
+				top: 0px;
+
+
+				right: 28px;
+
+
+				padding-left: 10px;
+
+
+				padding-bottom: 2px;
+
+
+				background: transparent url(images/bullet_triangleBlue.gif) no-repeat scroll 0% 50%;
+
+
+			}
+
+
+			#ff_tickets_dep_ret_date_subdiv {
+
+
+				padding-top: 15px;
+
+
+				padding-bottom: 15px;
+
+
+				border-bottom: 1px #b0b0b0 solid;
+
+
+			}
+
+
+			#ff_schedules_dep_ret_date_subdiv {
+
+
+				padding-top: 15px;
+
+
+			}
+
+
+			#ff_tickets_dep_ret_date_subdiv label, #ff_schedules_dep_ret_date_subdiv label {
+
+
+				margin-bottom: 4px;
+
+
+			}
+
+
+			#tickets_dep_date_time, #tickets_ret_date_time, #schedules_dep_date_time, #schedules_ret_date_time, #redeem_dep_date_time {
+
+
+				position: relative;
+
+
+			}
+
+
+			#tickets_ret_date_time, #schedules_ret_date_time {
+
+
+				margin-top: 12px;
+
+
+			}
+
+
+			.ff_date_wrapper_spacer {
+
+
+				margin-top: 12px; 
+
+
+			}
+
+
+			.ff_date_wrapper input {
+
+
+				width: 120px;
+
+
+			}
+
+
+			.ff_date_wrapper img {
+
+
+				vertical-align: bottom;
+
+
+				padding-bottom: 1px;
+
+
+				text-decoration: none;
+
+
+			}
+
+
+			.ff_time_wrapper {
+
+
+				position: absolute;
+
+
+				top: 0px;
+
+
+				right: 15px;
+
+
+				width: 85px; /* for ie6 */
+
+
+			}
+
+
+			#ff_tickets_passengers_subdiv, #ff_schedules_criteria_subdiv, #ff_redeem_passengers_subdiv {
+
+
+				margin-top: 15px;
+
+
+				position: relative;
+
+
+			}
+
+
+			#ff_tickets_passengers_subdiv label {
+
+
+				font-weight: normal;
+
+
+				position: relative;
+
+
+			}
+
+
+			#tickets_passengers, #redeem_passengers {
+
+
+				zoom: 1;
+
+
+				position: relative;
+
+
+			}
+
+
+			#tickets_passengers label span.important {
+
+
+				font-weight: bold;
+
+
+			}
+
+
+			#ff_kids_wrapper {
+
+
+				position: absolute;
+
+
+				top: 0px;
+
+
+				left: 70px;
+
+
+			}
+
+
+			#ff_infants_wrapper {
+
+
+				position: absolute;
+
+
+				top: 0px;
+
+
+				left: 140px;
+
+
+			}
+
+
+			#ff_submit_button {
+
+
+				position: absolute;
+
+
+				bottom: 0px;
+
+
+				right: 0px;
+
+
+			}
+
+
+			#farefinder .farefinder_tabbody .form_line_wrapper {
+
+
+				clear: both;
+
+
+			}
+
+
+			#farefinder .farefinder_tabbody .form_line_wrapper label {
+
+
+				float: left;
+
+
+				text-align: left;
+
+
+				margin: 0 10px 0 0;
+
+
+				padding: 0;
+
+
+			}
+
+
+			#farefinder .farefinder_tabbody .form_line_wrapper span.form_entry {
+
+
+				float: left;
+
+
+				text-align: left;
+
+
+				margin: 0;
+
+
+				padding-top: 6px;
+
+
+			}
+
+
+			#farefinder #farefinder_tabbody_status .form_line_wrapper {
+
+
+				padding-top: 10px;
+
+
+				zoom: 1;
+
+
+			}
+
+
+			#farefinder #farefinder_tabbody_status .form_line_wrapper.first /* will not check for .form_line_wrapper in IE6 - OK */ {
+
+
+				padding-top: 0px;
+
+
+			}
+
+
+			#farefinder #farefinder_tabbody_status input, #farefinder #farefinder_tabbody_status select {
+
+
+				margin: 0;
+
+
+				padding: 0;
+
+
+			}
+
+
+			#farefinder #farefinder_tabbody_status .form_line_wrapper label {
+
+
+				padding-top: 6px;
+
+
+			}
+
+
+			#farefinder #ff_status_step_1 {
+
+
+				padding-bottom: 15px;
+
+
+			}
+
+
+			#farefinder #ff_status_step_1 .form_line_wrapper label {
+
+
+				font-weight: bold;
+
+
+				width: 90px;
+
+
+			}
+
+
+			#farefinder #ff_status_step_1 .form_line_wrapper span.form_entry {
+
+
+				width: 160px;
+
+
+			}
+
+
+			#farefinder #ff_status_step_1 .form_line_wrapper span.form_entry input {
+
+
+				width: 120px;
+
+
+			}
+
+
+			#farefinder #ff_status_step_1 #status_arr_or_dep_wrapper {
+
+
+				padding-top: 15px;
+
+
+				text-align: center;
+
+
+			}
+
+
+			#farefinder #ff_status_step_1 #status_arr_or_dep_wrapper label {
+
+
+				font-size: 90%;
+
+
+			}
+
+
+			#farefinder #ff_status_step_2 {
+
+
+				padding-top: 15px;
+
+
+				border-top: 1px solid #b0b0b0;
+
+
+				padding-bottom: 15px;
+
+
+			}
+
+
+			#farefinder #ff_status_step_2 .form_line_wrapper label {
+
+
+				font-weight: normal;
+
+
+				width: 110px;
+
+
+			}
+
+
+			#farefinder #ff_status_step_2 .form_line_wrapper .separator {
+
+
+				font-weight: bold;
+
+
+				width: 110px;
+
+
+				text-align: left;
+
+
+			}
+
+
+			#farefinder #ff_status_step_2 .form_line_wrapper span.form_entry {
+
+
+				width: 130px;
+
+
+			}
+
+
+			#farefinder #ff_status_footnote_submit_wrapper p {
+
+
+				font-size: 95%; /* of 67% */
+
+
+			}
+
+
+			#farefinder #ff_status_step_3 {
+
+
+				padding-top: 15px;
+
+
+				border-top: 1px solid #b0b0b0;
+
+
+			}
+
+
+			/* Styles to be applied by IB team to AJAX dropdowns */
+
+
+			.autocompleter {
+
+
+				background-color: #cae4f1;
+
+
+				border: 1px solid #a9a9a9;
+
+
+				width: 250px;
+
+
+			}
+
+
+			.autocompleter li {
+
+
+				color: #003e89;
+
+
+				width: 250px;
+
+
+			}
+
+
+			.autocompleter li.selected {
+
+
+				background-color: #c2d1e0;
+
+
+			}
+
+
+			/* End: styles to be applied to IB team to AJAX dropdowns */
+
+
+
+
+
+			#farefinder #status_arr_or_dep_wrapper label {
+
+
+				font-weight: normal;
+
+
+			}
+
+
+			#farefinder #schedules_dep_city {
+
+
+				margin-top: 0px;
+
+
+			}
+
+
+			#farefinder #ff_schedules_one_way_label {
+
+
+				padding-right: 20px;
+
+
+			}
+
+
+			#farefinder #ff_schedules_sortby_wrapper {
+
+
+				position: absolute;
+
+
+				top: 0px; left: 160px;
+
+
+			}
+
+
+			#farefinder #ff_status_submit_wrapper {
+
+
+				padding-top: 10px;
+
+
+				text-align: right;
+
+
+				clear:both;
+
+
+				z-index: 1;
+
+
+				position: static;
+
+
+			}
+
+
+			#farefinder #ff_schedules_timetables_submit_wrapper {
+
+
+				padding-top: 10px;
+
+
+				padding-bottom: 10px;
+
+
+				text-align: right;
+
+
+				clear:both;
+
+
+				z-index: 1;
+
+
+				position: static;
+
+
+			}
+
+
+			#farefinder #ff_schedules_timetables_footer_wrapper {
+
+
+				padding-top: 15px;
+
+
+				border-top: 1px solid #b0b0b0;
+
+
+			}
+
+
+			#farefinder #ff_schedules_timetables_footer_wrapper p {
+
+
+				text-align: center;
+
+
+				font-size: 90%; /* of 67% */
+
+
+			}
+
+
+			#farefinder #farefinder_tabbody_mytrip .form_line_wrapper {
+
+
+				padding-top: 10px;
+
+
+			}
+
+
+			#farefinder #farefinder_tabbody_mytrip .form_line_wrapper.first, /*will not check for .form_line_wrapper in IE6 - OK*/ #farefinder #farefinder_tabbody_mytrip #ff_mytrip_step_1 .form_line_wrapper {
+
+
+				padding-top: 5px;
+
+
+			}
+
+
+			#farefinder #farefinder_tabbody_mytrip .form_line_wrapper.first, #farefinder #farefinder_tabbody_mytrip #ff_mytrip_step_1 .form_line_wrapper.first /*will not check for .form_line_wrapper in IE6 - OK*/
+
+
+			{
+
+
+				padding-top: 0px;
+
+
+			}
+
+
+			#farefinder #farefinder_tabbody_mytrip input, #farefinder #farefinder_tabbody_mytrip select {
+
+
+				margin: 0;
+
+
+				padding: 0;
+
+
+			}
+
+
+			#farefinder #farefinder_tabbody_mytrip .form_line_wrapper label {
+
+
+				padding-top: 6px;
+
+
+			}
+
+
+			#farefinder #ff_mytrip_step_1 {
+
+
+				padding-bottom: 15px;
+
+
+			}
+
+
+			#farefinder #ff_mytrip_step_1 .form_line_wrapper label {
+
+
+				font-weight: normal;
+
+
+				width: 120px;
+
+
+			}
+
+
+			#farefinder #ff_mytrip_step_1 .form_line_wrapper span.form_entry {
+
+
+				width: 140px;
+
+
+			}
+
+
+			#farefinder #ff_mytrip_step_1 .form_line_wrapper span.form_entry input {
+
+
+				width: 130px;
+
+
+			}
+
+
+			#farefinder #ff_mytrip_step_1 .form_line_wrapper .separator {
+
+
+				width: 110px;
+
+
+				text-align: left;
+
+
+			}
+
+
+			#farefinder #ff_mytrip_step_2 #mytrip_or {
+
+
+				position: relative;
+
+
+				text-align: center;
+
+
+				top: -18px;
+
+
+				font-size: 200%;
+
+
+				font-weight: bold;
+
+
+			}
+
+
+			#farefinder #ff_mytrip_step_2 #mytrip_or span {
+
+
+				color: #369;
+
+
+				text-transform: uppercase;
+
+
+				background-color: white;
+
+
+			}
+
+
+			#farefinder #ff_mytrip_step_2 {
+
+
+				padding-top: 5px;
+
+
+				border-top: 1px solid #b0b0b0;
+
+
+			}
+
+
+			#farefinder #ff_mytrip_step_2 .form_line_wrapper label {
+
+
+				font-weight: normal;
+
+
+				width: 120px;
+
+
+			}
+
+
+			#farefinder #ff_mytrip_step_2 .form_line_wrapper span.form_entry {
+
+
+				width: 140px; /* da */
+
+
+			}
+
+
+			#farefinder #ff_mytrip_step_2 .form_line_wrapper span.form_entry input {
+
+
+				width: 130px;
+
+
+			}
+
+
+			#farefinder #ff_mytrip_res_submit, #farefinder #ff_mytrip_acct_submit {
+
+
+				padding-top: 10px;
+
+
+				clear:both;
+
+
+				text-align: right;
+
+
+			}
+		#ff_mytrip_acct_submit .forgot_pass {
+	    	float: left;
+            padding-top: 10px;
+            line-height: 1.2em;		
+	    }
+
+			
+		.level6 { 
+          z-index:6; 
+          zoom: 1;
+        }   
+			.level5 { 
+
+
+				z-index:5; 
+
+
+				zoom: 1;
+
+
+			}
+
+
+
+
+
+			.level4 { 
+
+
+				z-index:4; 
+
+
+				zoom: 1;
+
+
+			}
+
+
+
+
+
+			.level3 { 
+
+
+				z-index:3; 
+
+
+				zoom: 1;
+
+
+			}
+
+
+
+
+
+			.level2 { 
+
+
+				z-index:2; 
+
+
+				zoom: 1;
+
+
+			}
+
+
+
+
+
+			.level1 { 
+
+
+				z-index:1; 
+
+
+				zoom: 1;
+
+
+			}
+
+
+
+
+
+			#farefinder .invalid {
+
+
+				color:#ff0000;
+
+
+			}
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+			.itinerary_wrapper
+
+
+			{
+
+
+				width: 290px;
+
+
+				background-color: #fff;
+
+
+				margin-bottom: 10px;
+
+
+			}
+
+
+			.itinerary_wrapper .content_area
+
+
+			{
+
+
+				padding-top: 10px;		
+
+
+			}
+
+
+			.itinerary_wrapper .content_area #header
+
+
+			{
+
+
+				position: relative;		
+
+
+			}
+
+
+			.itinerary_wrapper .content_area a
+
+
+			{
+
+
+				padding-bottom: 1px;	
+
+
+			}
+
+
+			.itinerary_wrapper .content
+
+
+			{
+
+
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+
+
+				font-size: 65%;
+
+
+				font-weight: normal;
+
+
+				line-height: 1.2em;
+
+
+			}
+
+
+			.itinerary_wrapper .content ul
+
+
+			{
+
+
+				margin-left: 0px;
+
+
+				padding: 0;
+
+
+				text-indent: 0;
+
+
+			}
+
+
+			.itinerary_wrapper .content ul li
+
+
+			{
+
+
+				font-size: 100%;
+
+
+				background: transparent url(images/bullet_triangleDKBlue.gif) no-repeat scroll left 4px;
+
+
+				padding-left: 9px;
+
+
+			}
+
+
+			.itinerary_wrapper .content ul li.passengerdiscount
+
+
+			{
+
+
+				background: none;
+
+
+				color: #c00;
+
+
+				padding-left: 25px;
+
+
+			}
+
+
+			.itinerary_wrapper .content ul li .space
+
+
+			{
+
+
+				float: left;
+
+
+			}
+
+
+			.itinerary_wrapper .content ul li .price
+
+
+			{
+
+
+				font-size: 103%; /* of 65% -- see above */
+
+
+				font-weight: normal;
+
+
+				text-align: right;
+
+
+				margin-top: -14px;
+
+
+			}
+
+
+			.itinerary_wrapper .content ul li.subtotal
+
+
+			{
+
+
+				font-size: 103%; /* of 65% -- see above */
+
+
+				text-align: right;
+
+
+				background: none;
+
+
+			}
+
+
+			.itinerary_wrapper .content ul li.subtotal .price
+
+
+			{
+
+
+				display: inline;
+
+
+				font-weight: bold;
+
+
+			}			
+
+
+			.itinerary_wrapper .content ul li.bike_charge
+
+
+			{
+
+
+				background: none;
+
+
+			}
+
+
+			.itinerary_wrapper .content ul li.bike_charge .price
+
+
+			{
+
+
+				font-size: 100%;
+
+
+				font-weight: normal;
+
+
+			}
+
+
+			.itinerary_wrapper .content ul li.bike_charge .price span
+
+
+			{
+
+
+				font-weight: bold;
+
+
+			}
+
+
+			.itinerary_wrapper #clear_cart
+
+
+			{
+
+
+				position: absolute;
+
+
+				top: 0px;
+
+
+				right: 10px;
+
+
+				z-index: 11;
+
+
+			}
+
+
+			.itinerary_wrapper #horizontal_blue
+
+
+			{
+
+
+				height: 3px;
+
+
+				font-size: 0;
+
+
+				background-color: #328acc;
+
+
+				margin: 5px 10px 10px 0;
+
+
+			}
+
+
+			.itinerary_wrapper .subheading
+
+
+			{
+
+
+				font-weight: bold;
+
+
+				width: 190px;
+
+
+				float: left;
+
+
+				clear: right;
+
+
+			}
+
+
+			.itinerary_wrapper .subheading_price
+
+
+			{
+
+
+				font-size: 103%; /* of 65% -- see above */
+
+
+				font-weight: bold;
+
+
+				text-align: right;
+
+
+				float: right;
+
+
+				width: 75px;
+
+
+				padding-right: 10px;
+
+
+			}
+
+
+			.itinerary_wrapper .subitem
+
+
+			{
+
+
+				clear: left;
+
+
+			}
+
+
+			.itinerary_wrapper .content
+
+
+			{
+
+
+				line-height: 1.1em;					
+
+
+			}
+
+
+			.itinerary_wrapper .content_label
+
+
+			{
+
+
+				float: left;
+
+
+				width: 75px;
+
+
+				margin: 1px 0 1px 0;
+
+
+			}
+
+
+			.itinerary_wrapper .content_item
+
+
+			{
+
+
+				float: left;
+
+
+				margin: 1px 0 1px 0;
+
+
+			}
+
+
+			.itinerary_wrapper #discountfees
+
+
+			{
+
+
+				border-top: 1px solid #b0b0b0;
+
+
+				border-bottom: 1px solid #b0b0b0;	
+
+
+				background-color: #e8e8e8;
+
+
+				padding: 10px;
+
+
+				zoom: 1;
+
+
+			}	
+
+
+			.itinerary_wrapper #discountfees .content_label
+
+
+			{
+
+
+				width: 75%;	
+
+
+			}	
+
+
+			.itinerary_wrapper #discountfees .content_item
+
+
+			{
+
+
+				font-size: 103%; /* of 65% -- see above */
+
+
+				text-align: right;
+
+
+				float: right;
+
+
+				font-weight: bold;
+
+
+			}
+
+
+			.itinerary_wrapper #totalprice {
+
+
+			    zoom: 1;
+
+
+			}
+
+
+			.itinerary_wrapper #totalprice .content_label
+
+
+			{
+
+
+				font-size: 123%; /* of 65% -- see above */
+
+
+				width: 70%;	
+
+
+				text-align: right;
+
+
+				font-weight: bold;
+
+
+			}	
+
+
+		.itinerary_wrapper #totalprice .content_item
+			{
+				font-size: 123%; /* of 65% -- see above */
+				text-align: right;
+				float: right;
+				font-weight: bold;
+				width:80px;
+			}
+		
+
+		.itinerary_wrapper #totalprice .content_label_confirmation {
+			float:left;
+			font-size:123%;
+			font-weight:bold;
+			margin:1px 0;
+			text-align:right;
+			width:65%;
+			
+		}
+		.itinerary_wrapper .buttons
+
+
+			{
+
+
+				margin: 0 0 10px 0;
+
+
+				position: relative;
+
+
+				left: -3px;			
+
+
+			}
+
+
+			.itinerary_wrapper .buttons a
+
+
+			{
+
+
+				margin-right: 10px;
+
+
+			}
+
+
+			.itinerary_wrapper .buttons a:hover
+
+
+			{
+
+
+				text-decoration: none;
+
+
+				background-color: #fff;	
+
+
+			}
+
+
+			.itinerary_wrapper .horizontal_gray
+
+
+			{
+
+
+				height: 1px;
+
+
+				font-size: 0;
+
+
+				width: 100%;
+
+
+				background-color: #b0b0b0;
+
+
+			}
+
+
+			.itinerary_wrapper .section_spacer
+
+
+			{
+
+
+				margin: 5px 0 5px 0;	
+
+
+				padding: 0;
+
+
+				font-size: 0;
+
+
+			}
+
+
+			.itinerary_wrapper .info_text
+
+
+			{
+
+
+				color: #c00;
+
+
+				margin: 10px 10px 0 0;
+
+
+			}
+
+
+			#confirmation_itinerary_wrapper #discountfees
+
+
+			{
+
+
+				border: 1px solid #b0b0b0;
+
+
+			}	
+
+
+			#confirmation_itinerary_wrapper #totalprice
+
+
+			{
+
+
+				border: 1px solid #b0b0b0;
+
+
+			}	
+
+			.itinerary_wrapper .error_text {
+color:#CC0000;
+float:right;
+padding-right:10px;
+text-align:right;
+width:75px;
+}
+	
+
+
+
+
+
+
+
+
+		.travel_faqs dl {
+
+
+			font-size: 67%;
+
+
+			border-top: 5px solid #328acc;
+
+
+			line-height: 1.3;
+
+
+		}
+
+
+		.travel_faqs dl dt {
+
+
+			color: #328acc;
+
+
+			margin-top: 10px;
+
+
+		}
+
+
+		.travel_faqs dl dd {
+
+
+			margin-left: 0;
+
+
+			padding-left: 2em;
+
+
+		}
+
+
+		.travel_faqs dl dt span {
+
+
+			display: -moz-inline-box; /* Gecko proprietary */
+
+
+			display: inline-block; /* supported by Opera and ? */
+
+
+			width: 2em;
+
+
+			vertical-align: top; /* Gecko needs this */
+
+
+		}
+		
+		#redeem_dep_date_time {
+			z-index: 5;
+		}
+		#ff_redeem_dep_date_subdiv label{
+		
+			padding: 0px 0px 4px 0px;
+			margin: 0px;
+		}
+
+
+#ff_sub_tabbar {			
+			height: 35px;
+			position: relative;
+		}
+		
+		#ff_sub_tabbar div {
+			position: absolute;
+			top: 0px;
+			height: 35px;
+			cursor: pointer;
+			overflow: hidden;
+			color: white;
+		}
+		
+		#ff_sub_tabbar div span {
+			display: block;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			height: 35px;
+			z-index: 10;
+			background-image: url(/images/en/ffTabs_BuyRedeem.gif);
+			
+		}		
+		
+		.farefinder_sub_tabbody {
+			background-color: white;
+			font-size: 67%;
+			padding: 15px 0px 10px 0px;
+			margin: 0 4px;
+			display: none;
+		}
+		
+		#ff_sub_tabbar_bookatrip { left: 0px; width: 83px; }
+		#ff_sub_tabbar_bookatrip span { width: 83px; background-position: 0px -33px;}
+		#ff_sub_tabbar_bookatrip.active span { background-position: 0px 0px;}
+				
+        #ff_sub_tabbar_redeem { left: 83px;	width: 217px; }
+		#ff_sub_tabbar_redeem span { width: 217px; background-position: -83px -33px;}
+		#ff_sub_tabbar_redeem.active span { background-position: -83px 0px;}
+		
+		#farefinder #farefinder_tabbody_redeem .form_line_wrapper {
+			padding-top: 10px;
+		}
+		#farefinder #farefinder_tabbody_redeem .form_line_wrapper.first, /*will not check for .form_line_wrapper in IE6 - OK*/ 
+		#farefinder #farefinder_tabbody_redeem #ff_redeem_step_1 .form_line_wrapper {
+			padding-top: 5px;
+		}
+		#farefinder #farefinder_tabbody_redeem .form_line_wrapper.first, 
+		#farefinder #farefinder_tabbody_redeem #ff_redeem_step_1 .form_line_wrapper.first /*will not check for .form_line_wrapper in IE6 - OK*/
+		{
+			padding-top: 0px;
+		}
+		#farefinder #farefinder_tabbody_redeem input, #farefinder #farefinder_tabbody_redeem select {
+			margin: 0;
+			padding: 0;
+		}
+		#farefinder #farefinder_tabbody_redeem .form_line_wrapper label {
+			padding-top: 6px;
+		}		
+			
+		#farefinder #ff_redeem_step_1 {
+			padding-bottom: 15px;
+		}
+		#farefinder #ff_redeem_step_1 .form_line_wrapper label {
+			font-weight: normal;
+			width: 120px;
+		}
+		#farefinder #ff_redeem_step_1 .form_line_wrapper span.form_entry {
+			width: 140px;
+		}
+		#farefinder #ff_redeem_step_1 .form_line_wrapper span.form_entry1 {
+ float: left;
+ text-align: left;
+ margin: 0;
+ padding: 0;
+ width: 140px;
+ padding-top:6px;
+}
+
+#farefinder #ff_redeem_step_1 .form_line_wrapper span.form_entry input, 
+#farefinder #ff_redeem_step_1 .form_line_wrapper span.form_entry1 input {
+ width: 112px;
+}
+		#farefinder #ff_redeem_step_1 .form_line_wrapper .separator {
+			width: 110px;
+			text-align: left;
+		}
+		
+		#ff_tickets_redeem_cities_subdiv {			
+			padding-bottom: 15px;
+			border-top: 1px #b0b0b0 solid;
+			border-bottom: 1px #b0b0b0 solid;
+		}
+		
+		#ff_redeem_dep_date_subdiv {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			border-bottom: 1px #b0b0b0 solid;
+            z-index: 3;
+        }
+        
+        #redeem_dep_date_time {
+            z-index: 5;
+        }
+        
+        #ff_redeem_passenger_select_wrapper {
+			position: absolute;
+			top: 0px;
+			left: 84px;
+		}
+
+ #farefinder #farefinder_tabbody_redeem {
+padding-top: 7px;
+padding-bottom: 5px;
+}
+		
+
+	
+
+
+

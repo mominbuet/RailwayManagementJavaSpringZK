@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Passenger List" ?>
+<zk xmlns="http://www.zkoss.org/2005/zul" xmlns:html="http://www.w3.org/1999/xhtml"> 
+
+<!--
+<zscript>
+        import orm.*;
+        import UserHandler.*;
+        import javax.servlet.http.*;
+        admin_info ai1 = (admin_info)Sessions.getCurrent().getAttribute("username");
+        mymap.appendChild(new Label(ai1.getFirstname()));
+</zscript>
+-->
+    <window sclass="cardSys" border="none"
+    apply="org.zkoss.bind.BindComposer"
+    viewModel="@id('vm') @init('viewmodel.ContributorViewModel')">
+        
+    <hlayout spacing="0" height="400px">
+        <listbox sclass="employee-list" vflex="true" hflex="1"
+            model="@load(vm.contributorList)" selectedItem="@bind(vm.selectedContributor)" >
+            <auxhead>
+                <auxheader colspan="3" class="topic">Passenger List</auxheader>
+            </auxhead>
+            <listhead sizable="true">
+                <listheader label="Id" width="50px" align="center" />
+                <listheader label="Ticket ID" width="50px" align="center" />
+                <listheader label="Full Name" align="center" />
+                <listheader label="Email" width="150px" align="center" />
+                <listheader label="Phone No" width="90px" align="center" />
+                <listheader label="SSN" width="70px" align="center" />
+            </listhead>
+            <template name="model" var="contributor">
+                <listitem>
+                    <listcell label="@load(contributor.getCust_id())" />
+                    <listcell label=".." />
+                    <listcell label="@load(contributor.getFirstname())" />
+                    <listcell label="@load(contributor.getEmail())" />
+                    <listcell label="@load(contributor.getPhone()))" />
+                    <listcell label="@load(contributor.getSsn())" />
+                </listitem>
+            </template>
+ 
+        </listbox>
+    <window sclass="card-pre" title="Passenger Preview" hflex="1" vflex="true" border="normal">
+            <div sclass="card">
+                <image sclass="logo" src="/images/ZK-Logo.gif" />
+                <vlayout sclass="title">
+                    <label sclass="name" value="@load(vm.selectedContributor.getFirstname())" />
+                    <hlayout sclass="dept">
+                        Email: 
+                        <label value="@load(vm.selectedContributor.getEmail())" />
+                        
+                    </hlayout>
+                </vlayout>
+                <div sclass="number">
+                    Tel:
+                    <label value="@load(vm.selectedContributor.getPhone())" />
+                </div>
+            </div>
+        </window>
+    </hlayout>
+    <grid>
+        <auxhead>
+            <auxheader colspan="5" class="topic">Edit Data</auxheader>
+        </auxhead>
+        <columns>
+            <column label="ID" align="center" />
+            <column label="First Name" align="center" />
+            <column label="Last Name" align="center" />
+            <column label="Email" align="center" />
+            <column label="Phone No" align="center" />
+        </columns>
+        <rows>
+            <row>
+                <label value="@load(vm.selectedContributor.getCust_id())" />
+                <textbox value="@bind(vm.selectedContributor.getFirstname())" width="95%" />
+                <textbox value="@bind(vm.selectedContributor.getLastname())" width="95%" />
+                <label value="@bind(vm.selectedContributor.getEmail())" width="95px" />
+                <label value="@load(vm.selectedContributor.getPhone())" />
+                
+            </row>
+        </rows>
+    </grid>
+    </window>
+    
+</zk>
